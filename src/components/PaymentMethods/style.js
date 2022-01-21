@@ -9,37 +9,35 @@ const Content = styled.div`
 
 const Flex = styled.div`
   width: 80%;
-  background-color: #000000;
-  color: #ffffff;
+  display: flex;
+  background-color: #fff;
+  color: #000;
+  flex-direction: row;
+  align-items: center;
+`;
+
+const Card = styled.div` 
+  padding: 12px;
+  width: 22%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 `;
 
-const SecurePayment = styled.div` 
-  width: 25%;
-  background-color: red;
+const Method = styled.p`
+  font-weight: bold;
 `;
 
-const InterestFree = styled.div` 
-  width: 25%;
-  background-color: green;
-`;
-
-const Installments = styled.div` 
-  width: 25%;
-  background-color: yellow;
-`;
-
-const ViaPix = styled.div` 
-  width: 25%;
-  background-color: blue;
+const Span = styled.span`
+  color: #2374E1;
+  font-size: 12px;
 `;
 
 export {
-  SecurePayment,
-  InterestFree,
-  Installments,
   Content,
-  ViaPix,
+  Method,
+  Card,
   Flex,
+  Span,
 }

@@ -15,6 +15,12 @@ function Home() {
       <Grid>
         <GridAreas>
           <h1>Produtos</h1>
+          <h1>Produtos</h1>
+          <h1>Produtos</h1>
+          <h1>Produtos</h1>
+          <h1>Produtos</h1>
+          <h1>Produtos</h1>
+          <h1>Produtos</h1>
         </GridAreas>
       </Grid>
     </div>
