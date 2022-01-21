@@ -1,26 +1,20 @@
 import {
-  Li,
   Grid,
-  Item,
-  List,
   Navbar,
+  Carousel,
   GridAreas,
+  PaymentMethods,
 } from '../../components';
-
 
 function Home() {
   return (
     <div>
-      <Navbar>
-        <List>
-          <Li> <Item> ola amigus </Item> </Li>
-          <Li> <Item> sua izposa </Item> </Li>
-          <Li> <Item> é caçada </Item>  </Li>
-        </List>
-      </Navbar>
+      <Navbar />
+      <Carousel />
+      <PaymentMethods />
       <Grid>
         <GridAreas>
-          <h1>Hello</h1>
+          <h1>Produtos</h1>
         </GridAreas>
       </Grid>
     </div>

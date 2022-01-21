@@ -1,17 +1,13 @@
 import Grid from './Grid';
+import Navbar from './Navbar';
+import Carousel from './Carousel';
 import GridAreas from './GridAreas';
-import  {
-  Navbar,
-  List,
-  Item,
-  Li,
-} from './Nav';
+import PaymentMethods from './PaymentMethods';
 
 export {
-  Li,
   Grid,
-  List,
-  Item,
   Navbar,
+  Carousel,
   GridAreas,
+  PaymentMethods,
 }
