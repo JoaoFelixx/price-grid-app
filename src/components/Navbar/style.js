@@ -3,10 +3,12 @@ import styled from 'styled-components';
 const Nav = styled.nav`
   padding: 0;
   background-color: #FFF159;
+  width: 100%;
 `;
 
 const List = styled.ul`
   list-style-type: none;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -14,6 +16,8 @@ const List = styled.ul`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
+  @media (max-width: 768px) { justify-content: space-evenly;}
 `;
 
 const Input = styled.input`
@@ -22,15 +26,18 @@ const Input = styled.input`
   font-size: 16px;
   padding: 6px;
   border: none;
-  width: 50%;
+  width: 100%;
 `;
 
 const Li = styled.li`
   float: right;
+
+  @media (max-width: 768px) { width: 75%; }
 `;
 
 const Image = styled.img`
   float: left;
+  @media (max-width: 768px) { width: 20%; }
 `;
 
 const Item = styled.a`
@@ -39,6 +46,8 @@ const Item = styled.a`
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
+  @media (max-width: 768px) { display: none; }
 `;
 
 export {

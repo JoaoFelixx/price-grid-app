@@ -1,8 +1,8 @@
 import {
-  Grid,
+  //Grid,
   Navbar,
   Carousel,
-  GridAreas,
+  //GridAreas,
   PaymentMethods,
 } from '../../components';
 
@@ -12,17 +12,6 @@ function Home() {
       <Navbar />
       <Carousel />
       <PaymentMethods />
-      <Grid>
-        <GridAreas>
-          <h1>Produtos</h1>
-          <h1>Produtos</h1>
-          <h1>Produtos</h1>
-          <h1>Produtos</h1>
-          <h1>Produtos</h1>
-          <h1>Produtos</h1>
-          <h1>Produtos</h1>
-        </GridAreas>
-      </Grid>
     </div>
   )
 }

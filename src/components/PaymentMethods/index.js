@@ -1,4 +1,5 @@
 import {
+  CardPlus,
   Content,
   Method,
   Card,
@@ -21,7 +22,7 @@ function PaymentMethods() {
             <Method>Pagamento rápido e seguro</Method>
             <Span>com Mercado Pago</Span>
           </div>
-        </Card>
+        </Card> 
         <Card>
           <BsFillCreditCard2BackFill style={{ fontSize: '24px', color: '#2374E1' }} />
           <div>
@@ -39,13 +40,13 @@ function PaymentMethods() {
         <Card style={{ justifyContent: 'center' }}>
           <BsPhoneFill style={{ fontSize: '24px', color: '#2374E1', margin: '10px' }} />
           <div>
-            <Method>Via Pix</Method>
+            <Method>Via Pix ou QRcode</Method>
             <Span>Ver mais</Span>
           </div>
         </Card>
-        <Card style={{ width: '12%', justifyContent: 'center' }}>
+        <CardPlus>
           <BsPlusCircleFill style={{ fontSize: '24px', color: '#2374E1' }}/>
-        </Card>
+        </CardPlus>
       </Flex>
     </Content>
   )
