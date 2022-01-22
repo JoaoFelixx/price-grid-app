@@ -27,12 +27,11 @@ const Input = styled.input`
   padding: 6px;
   border: none;
   width: 100%;
+  @media (max-width: 768px) { font-size: 12px; }
 `;
 
 const Li = styled.li`
   float: right;
-
-  @media (max-width: 768px) { width: 75%; }
 `;
 
 const Image = styled.img`

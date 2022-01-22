@@ -15,7 +15,7 @@ const Content = styled.div`
 `;
 
 const Flex = styled.div`
-  width: 100%;
+  width: 90%;
   background-color: #fff;
   color: #000;
   display: flex;

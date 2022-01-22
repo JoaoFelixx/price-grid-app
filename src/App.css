@@ -7,3 +7,8 @@
 body {
   background-color: #EBEBEB;
 }
+
+div {
+  padding: 0;
+  margin: 0;
+}
