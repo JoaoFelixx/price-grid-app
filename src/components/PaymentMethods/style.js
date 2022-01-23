@@ -1,31 +1,34 @@
 import styled from 'styled-components';
 
-const Content = styled.div`
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  @media (max-width: 768px) { 
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-`;
-
 const Flex = styled.div`
+  grid-area: payments;
   width: 90%;
   background-color: #fff;
+  justify-self: center;
   color: #000;
   display: flex;
   flex-direction: row;
   align-items: center;
 
   @media (max-width: 768px) { 
+    width: auto;
     flex-direction: column; 
-    align-items: flex-start;
+    align-items: stretch;
   }
+`;
+
+const CardFastPayment = styled.div`
+  padding: 12px;
+  width: 20%;
+
+  @media (max-width: 768px) {
+    width: 100%; 
+    justify-content: space-evenly;
+  }
+`;
+
+const Description = styled.div` 
+  flex-grow: 1;
 `;
 
 const Card = styled.div` 
@@ -37,8 +40,7 @@ const Card = styled.div`
   justify-content: space-between;
 
   @media (max-width: 768px) {
-    width: 100%; 
-    justify-content: space-evenly;
+    width: auto; 
   }
 `;
 
@@ -63,8 +65,9 @@ const Span = styled.span`
 `;
 
 export {
+  CardFastPayment,
+  Description,
   CardPlus,
-  Content,
   Method,
   Card,
   Flex,

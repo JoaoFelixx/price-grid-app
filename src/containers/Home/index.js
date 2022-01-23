@@ -1,8 +1,7 @@
 import {
-  //Grid,
+  Grid,
   Navbar,
   Carousel,
-  //GridAreas,
   PaymentMethods,
 } from '../../components';
 
@@ -10,8 +9,10 @@ function Home() {
   return (
     <div>
       <Navbar />
-      <Carousel />
-      <PaymentMethods />
+      <Grid>
+        <Carousel />
+        <PaymentMethods />
+      </Grid>
     </div>
   )
 }

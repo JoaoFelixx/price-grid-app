@@ -1,15 +1,11 @@
 import styled from 'styled-components';
 
 const Content = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  grid-area: carousel;
 `;
 
 const Image = styled.img`
-  width: 98%;
-  margin: 10px;
+  width: 100%;
 `;
 
 export {
