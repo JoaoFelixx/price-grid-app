@@ -20,8 +20,10 @@ const Flex = styled.div`
 const CardFastPayment = styled.div`
   padding: 12px;
   width: 20%;
+  border-left: 5px solid #3483FA;
 
   @media (max-width: 768px) {
+    border-left: none;
     width: 100%; 
     justify-content: space-evenly;
   }
