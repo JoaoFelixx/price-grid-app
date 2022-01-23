@@ -14,14 +14,7 @@ function Home() {
         <Carousel />
         <PaymentMethods />
         <OffersOfTheDay />
-      </Grid>
-      <p>paos</p>
-      <p>paos</p>
-      <p>paos</p>
-      <p>paos</p>
-      <p>paos</p>
-      <p>paos</p>
-      
+      </Grid>      
     </div>
   )
 }

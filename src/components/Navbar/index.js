@@ -1,11 +1,13 @@
 import {
+  Search,
   Image,
   Input,
-  Item,
   List,
   Nav,
-  Li,
 } from './style';
+import {
+  BsSearch
+} from 'react-icons/bs'
 
 function Navbar() {
   return (
@@ -13,7 +15,7 @@ function Navbar() {
       <List>
         <Image src="./favicon.png" alt="Mercado Privado ia" />
         <Input placeholder='Buscar produtos, marcas e muito mais' type='search' />
-        <Li> <Item> PROPAGANDA </Item> </Li>
+        <Search><BsSearch /></Search>
       </List>
     </Nav>
   )

@@ -16,6 +16,7 @@ const Flex = styled.div`
 const Card = styled.div`
   margin: 4px;
   background-color: #fff;
+  cursor: pointer;
 `;
 
 const Content = styled.div`

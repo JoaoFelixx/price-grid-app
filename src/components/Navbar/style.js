@@ -6,6 +6,15 @@ const Nav = styled.nav`
   width: 100%;
 `;
 
+const Search = styled.button`
+  cursor: pointer;
+  height: 35px;
+  font-size: 16px;
+  padding: 6px;
+  width: auto;
+  width: 15%;
+`;
+
 const List = styled.ul`
   list-style-type: none;
   width: 100%;
@@ -17,7 +26,7 @@ const List = styled.ul`
   justify-content: space-around;
   align-items: center;
 
-  @media (max-width: 768px) { justify-content: space-evenly;}
+  @media (max-width: 768px) { justify-content: flex-start;}
 `;
 
 const Input = styled.input`
@@ -26,34 +35,19 @@ const Input = styled.input`
   font-size: 16px;
   padding: 6px;
   border: none;
-  width: 100%;
+  width: 85%;
   @media (max-width: 768px) { font-size: 12px; }
-`;
-
-const Li = styled.li`
-  float: right;
 `;
 
 const Image = styled.img`
   float: left;
-  @media (max-width: 768px) { width: 20%; }
-`;
-
-const Item = styled.a`
-  display: block;
-  color: #000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-
   @media (max-width: 768px) { display: none; }
 `;
 
 export {
+  Search,
   Image,
   Input,
   List,
-  Item,
   Nav,
-  Li,
 }

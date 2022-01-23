@@ -17,10 +17,10 @@ import {
 function PaymentMethods() {
   return (
     <Flex>
-      <CardFastPayment>
+      <Card style={{ display: 'block' }}>
         <Method>Pagamento rápido e seguro</Method>
         <Span>com Mercado Pago</Span>
-      </CardFastPayment>
+      </Card>
       <Card>
         <BsFillCreditCard2BackFill style={{ fontSize: '24px', color: '#2374E1', flexGrow: '1' }} />
         <Description>

@@ -3,34 +3,16 @@ import styled from 'styled-components';
 const Flex = styled.div`
   grid-area: payments;
   width: 90%;
-  background-color: #fff;
   justify-self: center;
-  color: #000;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
-  align-items: center;
 
-  @media (max-width: 768px) { 
-    width: auto;
-    flex-direction: column; 
-    align-items: stretch;
+  @media (max-width: 768px) {  
+    display: none;
+    /* width: 94%;
+    flex-direction: column; */
   }
-`;
-
-const CardFastPayment = styled.div`
-  padding: 12px;
-  width: 20%;
-  border-left: 5px solid #3483FA;
-
-  @media (max-width: 768px) {
-    border-left: none;
-    width: 100%; 
-    justify-content: space-evenly;
-  }
-`;
-
-const Description = styled.div` 
-  flex-grow: 1;
 `;
 
 const Card = styled.div` 
@@ -40,7 +22,8 @@ const Card = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
+  cursor: pointer;
+  
   @media (max-width: 768px) {
     width: auto; 
   }
@@ -53,8 +36,13 @@ const CardPlus = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 
   @media (max-width: 768px) { display: none; }
+`;
+
+const Description = styled.div` 
+  flex-grow: 1;
 `;
 
 const Method = styled.p`
@@ -67,7 +55,6 @@ const Span = styled.span`
 `;
 
 export {
-  CardFastPayment,
   Description,
   CardPlus,
   Method,
