@@ -6,9 +6,12 @@ import {
 function Advertisements() {
   return (
     <Flex>
-      <Card style={{ backgroundColor: 'red' }}> oi </Card>
-      <Card style={{ backgroundColor: 'blue' }}> oi </Card>
-      <Card style={{ backgroundColor: 'green' }}> oi </Card>
+      <Card img='./img/animation-design.png' >
+        <h1>Mais uma vez</h1>
+      </Card>
+      <Card img='./img/movies-series.png'>
+        <h1>Mais uma vez</h1>
+      </Card>
     </Flex>
   )
 }
