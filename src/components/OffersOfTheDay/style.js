@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 const Flex = styled.div`
-  grid-area: offers;
-  width: 90%;
-  justify-self: center;
+  width: 100%;
   display: flex;
   flex-direction: row;
 

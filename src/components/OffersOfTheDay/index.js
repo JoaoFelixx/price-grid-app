@@ -8,6 +8,7 @@ import {
   Content,
   InstallmentPrice,
 } from './style';
+import Index from '../Index';
 
 function OffersOfTheDay() {
 

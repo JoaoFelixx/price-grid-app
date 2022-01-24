@@ -1,8 +1,8 @@
 import {
   Grid,
   Navbar,
+  Offers,
   Carousel,
-  OffersOfTheDay,
   PaymentMethods,
 } from '../../components';
 
@@ -13,7 +13,7 @@ function Home() {
       <Grid>
         <Carousel />
         <PaymentMethods />
-        <OffersOfTheDay />
+        <Offers />
       </Grid>      
     </div>
   )

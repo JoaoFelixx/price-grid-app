@@ -1,5 +1,4 @@
 import {
-  CardFastPayment,
   Description,
   CardPlus,
   Method,
