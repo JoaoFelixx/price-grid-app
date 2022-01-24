@@ -1,4 +1,5 @@
 import {
+  Ad,
   Grid,
   Navbar,
   Offers,
@@ -14,7 +15,8 @@ function Home() {
         <Carousel />
         <PaymentMethods />
         <Offers />
-      </Grid>      
+        <Ad />
+      </Grid>
     </div>
   )
 }

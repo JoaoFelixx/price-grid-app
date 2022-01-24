@@ -7,7 +7,8 @@ const Grid = styled.div`
   grid-template-areas: 'carousel'
                        'payments'
                        'payments'
-                       'offers';      
+                       'offers'
+                       'advertisements';      
   grid-gap: 20px;
 `;
 
