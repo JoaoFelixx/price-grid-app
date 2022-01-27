@@ -12,6 +12,7 @@ const Title = styled.h1`
 
 const SubTitle = styled.span`
   color: #2374E1;
+  cursor: pointer;
 `;
 
 export {
