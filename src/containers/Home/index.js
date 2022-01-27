@@ -1,10 +1,10 @@
 import {
-  Ad,
   Grid,
   Navbar,
   Offers,
   Carousel,
   PaymentMethods,
+  Advertisements,
 } from '../../components';
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
         <Carousel />
         <PaymentMethods />
         <Offers />
-        <Ad />
+        <Advertisements />
       </Grid>
     </div>
   )

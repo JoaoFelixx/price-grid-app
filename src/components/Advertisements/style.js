@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+export const Div = styled.div`
+  grid-area: advertisements;
+  width: 90%;
+  justify-self: center;
+`;
+
 const Flex = styled.div` 
   position: relative;
   width: 100%;

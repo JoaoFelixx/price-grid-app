@@ -9,8 +9,8 @@ function Carousel() {
 
   const ChangeImage = memo(() => {
     const images = ['./img/clothes-ad.jpg', './img/home-appliance-ad.jpg', './img/tires-ad.jpg'];
-    //const index = Math.floor(Math.random() * images.length);
-    
+    // const index = Math.floor(Math.random() * images.length);
+
     setInterval(() => {
       setSelectedImage(images[0])
     }, 3000)
