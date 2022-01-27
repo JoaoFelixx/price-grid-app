@@ -7,11 +7,10 @@ import {
 function Advertisements() {
   return (
     <Flex>
-      <Card img='./img/movies-series.png'>
-        <a href="https://felixflix.netlify.app/"> 
-          <Ad>FELIXFLIX</Ad>
-        </a>
-      </Card>
+      <a href="https://felixflix.netlify.app/">
+        <Ad>FELIXFLIX</Ad>
+      </a>
+      <Card img='./img/movies-series.png' />
     </Flex>
   )
 }
