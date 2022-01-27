@@ -11,20 +11,20 @@ const Flex = styled.div`
   display: flex;
   flex-direction: row;
 
-  @media (max-width: 768px) {  
-    width: 94%;
-    flex-direction: column;
-  }
+  @media (max-width: 768px) { flex-direction: column; }
 `;
 
 const Card = styled.div`
-  margin: 4px;
+  width: 100%;
   background-color: #fff;
   cursor: pointer;
+  
+  @media (min-width: 768px) { margin-right: 5px; }
+  @media (max-width: 768px) { margin-bottom: 10px; }
 `;
 
 const Content = styled.div`
-  margin: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
 `;

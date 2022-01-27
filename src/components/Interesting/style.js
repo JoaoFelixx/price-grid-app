@@ -15,14 +15,40 @@ const Flex = styled.div`
 `;
 
 const Card = styled.div` 
-  margin: 4px;
   background-color: #fff;
   width: 100%;
-  height: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  @media (min-width: 768px) { margin-right: 5px; }
+  @media (max-width: 768px) { margin-bottom: 10px; }
+`;
+
+const Image = styled.img`
+  width: 200px;
+  height: 300px;
+`;
+
+const Button = styled.button`
+  background-color: #2374E1;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #001fcf;
+  }
 `;
 
 export {
   Div,
   Flex,
   Card,
+  Image,
+  Button,
 }

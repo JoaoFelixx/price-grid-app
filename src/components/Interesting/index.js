@@ -1,9 +1,11 @@
 import React, { } from 'react';
 import Index from '../Index';
-import { 
+import {
   Div,
   Flex,
   Card,
+  Image,
+  Button,
 } from './style';
 
 function Interesting() {
@@ -11,7 +13,14 @@ function Interesting() {
     <Div>
       <Index title='Você pode se interresar' />
       <Flex>
-        <Card>oi</Card>
+        <Card>
+          <div style={{ padding: '20px' }}>
+            <h5 style={{ fontWeight: 'normal' }}>MERCADO CRÉDITO</h5> <br />
+            <h1>Compre parcelado sem cartão</h1><br />
+            <Button>Ver Mais</Button>
+          </div>
+          <Image src="./img/phone.jpg" alt="Smartphone" />
+        </Card>
         <Card>oi</Card>
       </Flex>
     </Div>
