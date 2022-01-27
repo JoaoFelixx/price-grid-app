@@ -3,6 +3,7 @@ import {
   Navbar,
   Offers,
   Carousel,
+  Interesting,
   PaymentMethods,
   Advertisements,
 } from '../../components';
@@ -16,7 +17,15 @@ function Home() {
         <PaymentMethods />
         <Offers />
         <Advertisements />
+        <Interesting />
       </Grid>
+      <p>oi</p>
+      <p>oi</p>
+      <p>oi</p>
+      <p>oi</p>
+      <p>oi</p>
+      <p>oi</p>
+      
     </div>
   )
 }

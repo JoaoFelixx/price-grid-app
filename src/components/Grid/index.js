@@ -8,7 +8,8 @@ const Grid = styled.div`
                        'payments'
                        'payments'
                        'offers'
-                       'advertisements';      
+                       'advertisements'
+                       'interesting';      
   grid-gap: 20px;
 `;
 
