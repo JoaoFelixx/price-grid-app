@@ -10,7 +10,8 @@ const Grid = styled.div`
                        'payments'
                        'offers'
                        'advertisements'
-                       'interesting';      
+                       'interesting'
+                       'footer';      
   grid-gap: 20px;
 `;
 

@@ -2,6 +2,7 @@ import {
   Grid,
   Navbar,
   Offers,
+  Footer,
   Carousel,
   Interesting,
   PaymentMethods,
@@ -17,6 +18,7 @@ function Home() {
       <Offers />
       <Advertisements />
       <Interesting />
+      <Footer />
     </Grid>
   )
 }
