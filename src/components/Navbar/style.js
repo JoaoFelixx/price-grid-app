@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 const Nav = styled.nav`
   grid-area: navbar;
-  padding: 4px;
   background-color: #FFF159;
   width: 100%;
   display: flex;
@@ -17,7 +16,10 @@ const Div = styled.div`
   background-color: #000;
   width: 70%;
 
-  @media (max-width: 768px) { width: 94%; }
+  @media (max-width: 768px) { 
+    width: 94%;
+    margin: 4px; 
+  }
 `;
 
 const Input = styled.input`

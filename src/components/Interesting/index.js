@@ -19,7 +19,7 @@ function Interesting() {
             <h1>Compre parcelado sem cartão</h1><br />
             <Button>Ver Mais</Button>
           </div>
-          <Image style={{ width: '200px' }} src="./img/phone.jpg" alt="Smartphone" />
+          <Image src="./img/phone.jpg" alt="Smartphone" />
         </Card>
         <Card>
           <div style={{ padding: '20px' }}>

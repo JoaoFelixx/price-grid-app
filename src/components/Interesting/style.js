@@ -11,7 +11,7 @@ const Flex = styled.div`
   flex-direction: row;
   width: 100%;
 
-  @media (max-width: 768px) { flex-direction: column }
+  @media (max-width: 900px) { flex-direction: column }
 `;
 
 const Card = styled.div` 
@@ -28,7 +28,7 @@ const Card = styled.div`
 
 const Image = styled.img`
   width: 100%;
-  height: 300px;
+  height: 100%;
 `;
 
 const Button = styled.button`
