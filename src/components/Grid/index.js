@@ -11,6 +11,7 @@ const Grid = styled.div`
                        'offers'
                        'advertisements'
                        'interesting'
+                       'categories'
                        'footer';      
   grid-gap: 20px;
 `;

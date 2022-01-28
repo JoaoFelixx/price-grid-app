@@ -19,7 +19,7 @@ const Card = styled.div`
   background-color: #fff;
   cursor: pointer;
   
-  @media (min-width: 768px) { margin-right: 5px; }
+  @media (min-width: 768px) { margin-right: 8px; }
   @media (max-width: 768px) { margin-bottom: 10px; }
 `;
 

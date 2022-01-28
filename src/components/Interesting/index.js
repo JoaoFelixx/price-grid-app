@@ -16,15 +16,15 @@ function Interesting() {
         <Card>
           <div style={{ padding: '20px' }}>
             <h5 style={{ fontWeight: 'normal' }}>MERCADO CRÉDITO</h5> <br />
-            <h1>Compre parcelado sem cartão</h1><br />
+            <h2>COMPRE PARCELADO SEM CARTãO</h2><br />
             <Button>Ver Mais</Button>
           </div>
           <Image src="./img/phone.jpg" alt="Smartphone" />
         </Card>
         <Card>
           <div style={{ padding: '20px' }}>
-            <h5 style={{ fontWeight: 'normal' }}>MERCADO CRÉDITO</h5> <br />
-            <h1>Compre parcelado sem cartão</h1><br />
+            <h5 style={{ fontWeight: 'normal' }}>BENEFÍCIOS EXCLUSIVOS</h5> <br />
+            <h2>ENCONTRE SEU CATINHO EXCLUSIVO</h2><br />
             <Button>Ver Mais</Button>
           </div>
           <Image src="./img/your-corner.png" alt="Smartphone" />

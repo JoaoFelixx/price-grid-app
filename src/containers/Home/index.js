@@ -7,6 +7,7 @@ import {
   Interesting,
   PaymentMethods,
   Advertisements,
+  PopularCategories,
 } from '../../components';
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
       <Advertisements />
       <Interesting />
       <Footer />
+      <PopularCategories />
     </Grid>
   )
 }

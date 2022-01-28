@@ -6,7 +6,7 @@ import Carousel from './Carousel';
 import Interesting from './Interesting'
 import Advertisements from './Advertisements';
 import PaymentMethods from './PaymentMethods';
-
+import PopularCategories from './PopularCategories';
 export {
   Grid,
   Footer,
@@ -16,4 +16,5 @@ export {
   Interesting,
   Advertisements,
   PaymentMethods,
+  PopularCategories,
 }

@@ -17,18 +17,18 @@ const Flex = styled.div`
 const Card = styled.div` 
   background-color: #fff;
   width: 100%;
-  height: 300px;
+  height: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   
-  @media (min-width: 768px) { margin-right: 5px; }
+  @media (min-width: 768px) { margin-right: 10px; }
   @media (max-width: 768px) { margin-bottom: 10px; }
 `;
 
 const Image = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
 `;
 
 const Button = styled.button`
