@@ -27,7 +27,7 @@ const Card = styled.div`
 `;
 
 const Image = styled.img`
-  width: 200px;
+  width: 100%;
   height: 300px;
 `;
 
