@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
-const Content = styled.div`
+const Div = styled.div`
   grid-area: carousel;
+  width: 90%;
+  justify-self: center;
+  justify-content: center;
 `;
 
 const Image = styled.img`
@@ -9,6 +12,6 @@ const Image = styled.img`
 `;
 
 export {
+  Div,
   Image,
-  Content,
 }

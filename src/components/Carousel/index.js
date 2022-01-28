@@ -1,7 +1,7 @@
 import { memo, useState } from 'react';
 import {
+  Div,
   Image,
-  Content,
 } from './style';
 
 function Carousel() {
@@ -21,9 +21,9 @@ function Carousel() {
   });
 
   return (
-    <Content>
+    <Div>
       <ChangeImage />
-    </Content>
+    </Div>
   )
 }
 

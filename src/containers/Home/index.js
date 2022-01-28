@@ -10,23 +10,14 @@ import {
 
 function Home() {
   return (
-    <div>
+    <Grid>
       <Navbar />
-      <Grid>
-        <Carousel />
-        <PaymentMethods />
-        <Offers />
-        <Advertisements />
-        <Interesting />
-      </Grid>
-      <p>oi</p>
-      <p>oi</p>
-      <p>oi</p>
-      <p>oi</p>
-      <p>oi</p>
-      <p>oi</p>
-      
-    </div>
+      <Carousel />
+      <PaymentMethods />
+      <Offers />
+      <Advertisements />
+      <Interesting />
+    </Grid>
   )
 }
 

@@ -1,43 +1,28 @@
 import styled from 'styled-components';
 
 const Nav = styled.nav`
-  padding: 0;
+  grid-area: navbar;
   background-color: #FFF159;
   width: 100%;
-`;
-
-const Search = styled.button`
-  cursor: pointer;
-  height: 35px;
-  font-size: 16px;
-  padding: 6px;
-  width: auto;
-  width: 15%;
-`;
-
-const List = styled.ul`
-  list-style-type: none;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 
-  @media (max-width: 768px) { justify-content: flex-start;}
+  @media (max-width: 768px) { justify-content: center;}
 `;
 
 const Input = styled.input`
   background-color: #ffffff;
   height: 35px;
   font-size: 16px;
-  padding: 6px;
+  padding: 25px 6px 25px 6px;
   border: none;
-  width: 85%;
+  width: 94%;
+
   @media (max-width: 768px) { font-size: 12px; }
 `;
+
 
 const Image = styled.img`
   float: left;
@@ -45,9 +30,7 @@ const Image = styled.img`
 `;
 
 export {
-  Search,
   Image,
   Input,
-  List,
   Nav,
 }
