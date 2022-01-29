@@ -7,16 +7,19 @@ const Div = styled.div`
 `;
 
 const Flex = styled.div`
-	width: 100%;
 	display: flex;
 	flex-direction: row;
+	width: 100%;
+
+	@media (max-width: 768px) {
+		flex-direction: column;	
+	}
 `;
 
 const Card = styled.div`
 	background-color: #fff;
 	color: #2374E1;
 	margin: 1px;
-	padding: 10px;
 	width: 100%;
 	height: 100px;
 	display: flex;

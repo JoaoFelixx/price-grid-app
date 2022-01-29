@@ -35,6 +35,8 @@ const Card = styled.div`
 const Image = styled.img`
   width: 200px;
   height: 200px;
+
+  @media (max-width: 768px) { display: none; }
 `;
 
 const Button = styled.button`

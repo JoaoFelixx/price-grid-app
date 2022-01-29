@@ -12,16 +12,18 @@ import {
 
 function Home() {
   return (
-    <Grid>
-      <Navbar />
-      <Carousel />
-      <PaymentMethods />
-      <Offers />
-      <Advertisements />
-      <Interesting />
-      <Footer />
-      <PopularCategories />
-    </Grid>
+    <div style={{ width: '100%' }} >
+      <Grid>
+        <Navbar />
+        <Carousel />
+        <PaymentMethods />
+        <Offers />
+        <Advertisements />
+        <Interesting />
+        <PopularCategories />
+        <Footer />
+      </Grid>
+    </div>
   )
 }
 

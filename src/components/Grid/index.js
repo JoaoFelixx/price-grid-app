@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Grid = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   grid-template-areas: 'navbar'
                        'carousel'
                        'payments'
