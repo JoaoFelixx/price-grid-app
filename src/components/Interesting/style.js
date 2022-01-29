@@ -21,7 +21,13 @@ const Card = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  transition: 1s;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 10px 10px 5px grey;
+  }
+
   @media (min-width: 768px) { margin-right: 10px; }
   @media (max-width: 768px) { margin-bottom: 10px; }
 `;

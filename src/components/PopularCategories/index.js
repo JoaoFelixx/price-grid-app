@@ -33,46 +33,46 @@ function PopularCategories (argument) {
 			<Index title='Categorias populares' /> <br />
 			<Flex>
 				<Card> 
-					<AiFillCar style={{ color: '#2374E1', fontSize: '50px' }} /> 
+					<AiFillCar /> 
 					<Text> Carros, motos e outros </Text>
 				</Card>
 				<Card> 
-					<GiLipstick style={{ color: '#2374E1', fontSize: '50px' }} /> 
+					<GiLipstick /> 
 					<Text> Beleza e cuidado pessoal </Text>
 				</Card>
 				<Card> 
-					<AiFillSkin style={{ color: '#2374E1', fontSize: '50px' }} /> 
+					<AiFillSkin /> 
 					<Text> Calçados, roupas e bolsas </Text>
 				</Card>
 				<Card> 
-					<AiFillMobile style={{ color: '#2374E1', fontSize: '50px' }} />
+					<AiFillMobile />
 					<Text> Celulares e telefones </Text>
 				</Card>
 				<Card> 
-					<BsTv style={{ color: '#2374E1', fontSize: '50px' }}/> 
+					<BsTv /> 
 					<Text> Informática </Text>
 				</Card>
 			</Flex>
 
 			<Flex>
 				<Card> 
-					<BsFillHouseFill style={{ color: '#2374E1', fontSize: '50px' }} /> 
+					<BsFillHouseFill /> 
 					<Text> Imóveis </Text>
 				</Card>
 				<Card> 
-					<BiFootball style={{ color: '#2374E1', fontSize: '50px' }} /> 
+					<BiFootball /> 
 					<Text> Esportes e fitness </Text>
 				</Card>
 				<Card> 
-					<RiBearSmileFill style={{ color: '#2374E1', fontSize: '50px' }} /> 
+					<RiBearSmileFill /> 
 					<Text> Brinquedos e Hobbies </Text>
 				</Card>
 				<Card> 
-					<GiGamepad style={{ color: '#2374E1', fontSize: '50px' }} /> 
+					<GiGamepad /> 
 					<Text> Games </Text>
 				</Card>
 				<Card> 	
-					<GiSteeringWheel style={{ color: '#2374E1', fontSize: '50px' }} /> 
+					<GiSteeringWheel /> 
 					<Text> Acessórios de veículos </Text>
 				</Card>
 			</Flex>

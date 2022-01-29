@@ -17,7 +17,12 @@ const Flex = styled.div`
 const Card = styled.div`
   width: 100%;
   background-color: #fff;
+  transition: 1s;
   cursor: pointer;
+
+  &:hover {
+    box-shadow: 10px 10px 5px grey;
+  }
   
   @media (min-width: 768px) { margin-right: 8px; }
   @media (max-width: 768px) { margin-bottom: 10px; }
