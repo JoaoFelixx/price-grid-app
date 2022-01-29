@@ -14,7 +14,7 @@ function Advertisements() {
         <a href="https://felixflix.netlify.app/">
           <Ad>FELIXFLIX</Ad>
         </a>
-        <Card img='./img/movies-series.png' />
+        <Card />
       </Flex>
     </Div>
 

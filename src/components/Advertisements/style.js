@@ -19,7 +19,7 @@ const Card = styled.div`
   justify-self: center;
   width: 600px;
   height: 300px;
-  background-image: url(${props => props.img});
+  background-image: url('./img/movies-series.png');
   background-repeat: no-repeat;
 `;
 
