@@ -1,30 +1,30 @@
-import { memo, useState } from 'react';
-import {
-  Div,
-  Image,
-} from './style';
+import { Div } from './style';
+import { Carousel } from 'react-responsive-carousel';
 
-function Carousel() {
-  const [selectedImage, setSelectedImage] = useState('./img/clothes-ad.jpg');
-
-  const ChangeImage = memo(() => {
-    const images = ['./img/clothes-ad.jpg', './img/home-appliance-ad.jpg', './img/tires-ad.jpg'];
-    // const index = Math.floor(Math.random() * images.length);
-
-    setInterval(() => {
-      setSelectedImage(images[0])
-    }, 3000)
-
-    return (
-      <Image src={selectedImage} />
-    )
-  });
+function CarouselDiv() {
 
   return (
     <Div>
-      <ChangeImage />
+      <Carousel 
+        autoPlay={true}
+        infiniteLoop={true}
+        showThumbs={false}
+        >
+        <div>
+            <img src="./img/clothes-ad.jpg" alt="Roupas" />
+            <p className="legend">Roupas</p>
+        </div>
+        <div>
+            <img src="./img/home-appliance-ad.jpg" alt="Ar condicionado" />
+            <p className="legend">Móveis domesticos</p>
+        </div>
+        <div>
+            <img src="./img/tires-ad.jpg" alt="Pneu" />
+            <p className="legend">Acessórios para veículos</p>
+        </div>
+      </Carousel>
     </Div>
   )
 }
 
-export default Carousel;
+export default CarouselDiv;

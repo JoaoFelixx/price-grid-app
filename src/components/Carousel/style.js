@@ -9,11 +9,7 @@ const Div = styled.div`
   @media (max-width: 768px) { width: 90%; }
 `;
 
-const Image = styled.img`
-  width: 100%;
-`;
 
 export {
   Div,
-  Image,
 }
